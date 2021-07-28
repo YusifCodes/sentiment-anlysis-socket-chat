@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+.welcome-container {
+  background-color: rgb(68, 109, 100);
+  width: 100vw;
+  height: 100vh;
+}
+
+.name-input-pos {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+
+.hero {
+  font-size: 5em;
+  color: rgb(101, 167, 152);
+}
+
+.hero span {
+  color: rgb(46, 78, 70);
+}
+
+.name-input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(245, 244, 244);
+  border-radius: 1px;
+  width: 15em;
+  font-size: 2em;
+  position: relative;
+  left: 5em;
+  margin-top: 4em;
+  margin-bottom: 1em;
+  outline: none;
+}
+
+.submit-btn {
+  border: none;
+  background-color: rgb(46, 78, 70);
+  color: white;
+  font-size: 2em;
+  padding: 0.35em 1.5em 0.35em 1.5em;
+  border-radius: 15px;
+  margin-left: 6em;
+  transition: 0.25s all ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: rgb(28, 48, 43);
+}
+
+/* CHAT */
+
+.container{
+  height: 100vh;
+}
+
+.chat-hero {
+  margin-top: 0.1em;
+  margin-left: 1em;
+  font-size: 3em;
+  color: rgb(101, 167, 152);
+}
+
+.chat-hero span{
+  color: rgb(28, 48, 43);
+}
+
+.chat-box {
+  border-radius: 15px;
+  max-height: 900px;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(28, 48, 43);
+  opacity: 0.75;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.message-box{
+  position: relative;
+  top: 11vh;
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 0 !important ;
+}
+
+.msg {
+  padding: .5em;
+  border-radius: 15px;
+  width: 150px;
+  height: auto;
+  opacity: 1;
+  position: relative;
+  margin: .5em;
+  font-size: 1.25em;
+}
+
+.message{
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-right: 100px;
+}
+
+.message-personal{
+  float: right;
+  background-color: rgb(177, 177, 177);
+}
+
+.chat-header{
+  display: block;
+  position: fixed;
+  width:400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 4em;
+  background-color: rgb(16, 27, 24);
+  z-index: 1;
+}
+
+.ch-name{
+  color: #fff;
+  font-size: 2em;
+  padding: 1vh;
+}
+
+.ch-status{
+  color: rgb(219, 219, 219);
+  padding-left: 1vh;
+  font-size: 0.5em;
+}
+
+.leave-btn{
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(250, 79, 79);
+  color: #fff;
+  font-size: 1.5em;
+  float: right;
+  margin-top: -2em;
+  margin-right: 1vh;
+  padding: 1vh;
+}
+
+.chat-footer{
+  height: 4em;
+  width:400px;
+  background-color: rgb(16, 27, 24);
+  position: fixed;
+  top: 450px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer-container{
+  position: relative;
+  top: 17.5%;
+}
+
+.message-input{
+  width: 80%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  height: 3em;
+  font-size: 1em;
+  outline: none;
+}
+
+.send-btn{
+  margin-left: 1em;
+  width: 4em;
+  height: 3em;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgb(238, 213, 130);
+}
+
+
+
